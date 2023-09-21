@@ -1,0 +1,45 @@
+/* Write your CSS here */
+
+.app-item-card {
+  list-style-type: none;
+  margin: 7px;
+  background-color: #ffffff;
+  padding: 15px 1px;
+  width: 45%;
+  border-radius: 8px;
+  font-family: 'Bree Serif';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .app-item-card {
+    padding: 15px 3px;
+    width: 20%;
+  }
+}
+
+.app-logo {
+  width: 75px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-logo {
+    width: 90px;
+  }
+}
+
+.app-heading {
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .app-heading {
+    font-size: 18px;
+  }
+}

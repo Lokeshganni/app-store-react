@@ -1,0 +1,33 @@
+/* Write your CSS here */
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.tab-item {
+  list-style-type: none;
+  padding: 8px 18px 3px 18px;
+  border-bottom: 3px solid #dfe2e5;
+}
+
+.add-tab-style {
+  border-bottom: 3px solid #2563eb;
+  padding: 1px 18px 10px 18px;
+}
+
+.tab-btn {
+  background-color: transparent;
+  border: none;
+  font-family: 'Bree Serif';
+  font-size: 17px;
+  color: #7b8794;
+}
+
+.add-tab-btn-style {
+  color: #2563eb;
+  font-size: 18px;
+}
